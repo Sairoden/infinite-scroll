@@ -1,0 +1,15 @@
+.ImageContainer {
+  margin: 1rem 30%;
+
+  img {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+
+// Media Query: Large Smartphone
+@media only screen and (max-width: 37.5em) {
+  .ImageContainer {
+    margin: 1rem;
+  }
+}

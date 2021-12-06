@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "image-container";
 
 html {
   box-sizing: border-box;
@@ -21,7 +22,7 @@ h1 {
 
 // Loader
 .loader {
-  background: rgba(255, 255, 255, 0.8);
+  // background: rgba(255, 255, 255, 0.8);
   bottom: 0;
   left: 0;
   position: fixed;
@@ -33,5 +34,11 @@ h1 {
     position: fixed;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  h1 {
+    font-size: 2rem;
   }
 }

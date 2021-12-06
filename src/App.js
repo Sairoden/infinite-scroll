@@ -1,5 +1,6 @@
 import "./styles/app.scss";
 import loader from "./loader.svg";
+import ImageContainer from "./components/ImageContainer";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <div className="loader" id="loader">
         <img src={loader} alt="Loading" hidden />
       </div>
+      {/* Image Container */}
+      <ImageContainer />
     </div>
   );
 }
